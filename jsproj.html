@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String and Array Manipulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- String Manipulation -->
+        <div class="section">
+            <h2>String Manipulation</h2>
+            <button onclick="reverseString()">Reverse a String</button>
+            <button onclick="countCharacters()">Count Characters</button>
+            <button onclick="capitalizeWords()">Capitalize Words</button>
+            <div id="stringResult" class="result"></div>
+        </div>
+        
+        <!-- Array Functions -->
+        <div class="section">
+            <h2>Array Functions</h2>
+            <button onclick="findMaximum()">Find Maximum</button>
+            <button onclick="findMinimum()">Find Minimum</button>
+            <button onclick="sumArray()">Sum of Array</button>
+            <button onclick="filterArray()">Filter Array</button>
+            <div id="arrayResult" class="result"></div>
+        </div>
+        
+        <!-- Mathematical Functions -->
+        <div class="section">
+            <h2>Mathematical Functions</h2>
+            <button onclick="calculateFactorial()">Factorial</button>
+            <button onclick="checkPrime()">Prime Number Check</button>
+            <button onclick="generateFibonacci()">Fibonacci Sequence</button>
+            <div id="mathResult" class="result"></div>
+        </div>
+    </div>
+    <script src="./jsproj.js"></script>
+</body>
+</html>
